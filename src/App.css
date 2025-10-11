@@ -1,14 +1,9 @@
 .app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
-.app h1 {
-  margin-bottom: 1rem;
-}
-
-.app p {
-  color: #666;
+.main-content {
+  flex: 1;
 }
