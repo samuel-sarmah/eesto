@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Facebook, Instagram, Twitter, Mail } from 'lucide-react';
+import Logo from './Logo';
 import './Footer.css';
 
 const Footer = () => {
@@ -8,7 +9,7 @@ const Footer = () => {
       <div className="container">
         <div className="footer-content">
           <div className="footer-section">
-            <h3>EESTO</h3>
+            <Logo variant="light" size="medium" />
             <p>Your destination for modern, stylish clothing. Quality fashion at affordable prices.</p>
             <div className="social-links">
               <a href="#" aria-label="Facebook"><Facebook size={20} /></a>

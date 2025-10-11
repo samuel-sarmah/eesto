@@ -1,0 +1,175 @@
+.eesto-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.logo-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.logo-text {
+  display: flex;
+  font-weight: 800;
+  letter-spacing: -0.05em;
+  position: relative;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* Individual letter styling */
+.letter {
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.letter.e1 {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: gradient-shift 3s ease infinite;
+}
+
+.letter.e2 {
+  background: linear-gradient(135deg, #764ba2 0%, #f093fb 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: gradient-shift 3s ease infinite 0.2s;
+}
+
+.letter.s {
+  color: #000;
+}
+
+.letter.t {
+  color: #000;
+}
+
+.letter.o {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: gradient-shift 3s ease infinite 0.4s;
+}
+
+/* Animated underline */
+.logo-underline {
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+  background-size: 200% 100%;
+  border-radius: 2px;
+  animation: underline-slide 3s ease infinite;
+}
+
+.logo-tagline {
+  font-size: 0.5em;
+  font-weight: 400;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #666;
+  opacity: 0.8;
+}
+
+/* Hover effects */
+.eesto-logo:hover .letter {
+  transform: translateY(-2px);
+}
+
+.eesto-logo:hover .letter.e1 {
+  transition-delay: 0s;
+}
+
+.eesto-logo:hover .letter.e2 {
+  transition-delay: 0.05s;
+}
+
+.eesto-logo:hover .letter.s {
+  transition-delay: 0.1s;
+}
+
+.eesto-logo:hover .letter.t {
+  transition-delay: 0.15s;
+}
+
+.eesto-logo:hover .letter.o {
+  transition-delay: 0.2s;
+}
+
+/* Size variants */
+.eesto-logo.small .logo-text {
+  font-size: 1.25rem;
+}
+
+.eesto-logo.small .logo-underline {
+  height: 2px;
+  bottom: -2px;
+}
+
+.eesto-logo.medium .logo-text {
+  font-size: 1.75rem;
+}
+
+.eesto-logo.large .logo-text {
+  font-size: 3rem;
+}
+
+.eesto-logo.large .logo-underline {
+  height: 4px;
+  bottom: -6px;
+}
+
+/* Variant styles */
+.eesto-logo.light .letter.s,
+.eesto-logo.light .letter.t {
+  color: #fff;
+}
+
+.eesto-logo.light .logo-tagline {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.eesto-logo.minimal .logo-underline {
+  display: none;
+}
+
+.eesto-logo.minimal .logo-tagline {
+  display: none;
+}
+
+/* Animations */
+@keyframes gradient-shift {
+  0%, 100% {
+    filter: brightness(1) saturate(1);
+  }
+  50% {
+    filter: brightness(1.2) saturate(1.3);
+  }
+}
+
+@keyframes underline-slide {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .eesto-logo.medium .logo-text {
+    font-size: 1.5rem;
+  }
+  
+  .eesto-logo.large .logo-text {
+    font-size: 2.5rem;
+  }
+}

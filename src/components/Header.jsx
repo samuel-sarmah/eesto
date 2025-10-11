@@ -4,6 +4,7 @@ import { useCart } from '../context/CartContext';
 import { useAuth } from '../context/AuthContext';
 import { useWishlist } from '../context/WishlistContext';
 import { useState } from 'react';
+import Logo from './Logo';
 import './Header.css';
 
 const Header = () => {
@@ -31,7 +32,7 @@ const Header = () => {
           </button>
 
           <Link to="/" className="logo">
-            <h1>EESTO</h1>
+            <Logo variant="minimal" size="medium" />
           </Link>
 
           <nav className={`nav ${showMobileMenu ? 'nav-open' : ''}`}>

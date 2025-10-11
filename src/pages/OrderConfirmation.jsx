@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { CheckCircle, Package } from 'lucide-react';
+import Logo from '../components/Logo';
 import './OrderConfirmation.css';
 
 const OrderConfirmation = () => {
@@ -26,6 +27,11 @@ const OrderConfirmation = () => {
             <Link to="/products" className="secondary-btn">
               Continue Shopping
             </Link>
+          </div>
+
+          <div className="confirmation-footer">
+            <Logo size="large" />
+            <p>Questions? Contact us at support@eesto.com</p>
           </div>
         </div>
       </div>

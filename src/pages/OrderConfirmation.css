@@ -64,6 +64,18 @@
   display: flex;
   gap: 1rem;
   justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.confirmation-footer {
+  padding-top: 2rem;
+  border-top: 1px solid #e0e0e0;
+}
+
+.confirmation-footer p {
+  margin-top: 1rem;
+  color: #666;
+  font-size: 0.95rem;
 }
 
 .primary-btn {

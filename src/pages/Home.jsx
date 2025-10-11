@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { ArrowRight, Truck, RotateCcw, Shield, TrendingUp } from 'lucide-react';
 import ProductCard from '../components/ProductCard';
+import Logo from '../components/Logo';
 import { products } from '../data/products';
 import './Home.css';
 
