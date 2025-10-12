@@ -3,11 +3,13 @@ import { useAuth } from '../context/AuthContext';
 import { useNavigate } from 'react-router-dom';
 import { Package, Users, ShoppingCart, DollarSign, TrendingUp, Edit, Trash2, Plus, X, Search } from 'lucide-react';
 import { products as initialProducts } from '../data/products';
+import { useToast } from '../context/ToastContext';
 import './Admin.css';
 
 function Admin() {
   const { user } = useAuth();
   const navigate = useNavigate();
+  const toast = useToast();
   const [activeTab, setActiveTab] = useState('dashboard');
   const [orders, setOrders] = useState([]);
   const [products, setProducts] = useState(initialProducts);
@@ -79,7 +81,7 @@ function Admin() {
   const handleProductSubmit = (e) => {
     e.preventDefault();
     // In a real app, this would update the products data source
-    alert('Product management is a demo feature. In production, this would update the backend.');
+    toast.info('Product management is a demo feature. In production, this would update the backend.');
     setShowProductModal(false);
     setEditingProduct(null);
   };
@@ -355,7 +357,7 @@ function Admin() {
                     </button>
                     <button
                       className="delete-btn"
-                      onClick={() => alert('Delete product feature is demo only')}
+                      onClick={() => toast.info('Delete product feature is demo only')}
                     >
                       <Trash2 size={16} />
                     </button>

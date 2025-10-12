@@ -4,6 +4,7 @@ import { Heart, ShoppingCart, Star, Truck, RotateCcw, Shield, ChevronLeft, Chevr
 import { products } from '../data/products';
 import { useCart } from '../context/CartContext';
 import { useWishlist } from '../context/WishlistContext';
+import { useToast } from '../context/ToastContext';
 import ProductCard from '../components/ProductCard';
 import './ProductDetail.css';
 
@@ -12,6 +13,7 @@ const ProductDetail = () => {
   const product = products.find(p => p.id === parseInt(id));
   const { addToCart } = useCart();
   const { isInWishlist, toggleWishlist } = useWishlist();
+  const toast = useToast();
   
   const [selectedSize, setSelectedSize] = useState(product?.sizes[0] || '');
   const [selectedColor, setSelectedColor] = useState(product?.colors[0] || '');
@@ -30,10 +32,11 @@ const ProductDetail = () => {
 
   const handleAddToCart = () => {
     if (!selectedSize || !selectedColor) {
-      alert('Please select size and color');
+      toast.warning('Please select size and color');
       return;
     }
     addToCart(product, selectedSize, selectedColor, quantity);
+    toast.success('Product added to cart!');
     setShowSuccess(true);
     setTimeout(() => setShowSuccess(false), 3000);
   };

@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
+import { useToast } from '../context/ToastContext';
 import './Auth.css';
 
 const Signup = () => {
@@ -11,6 +12,7 @@ const Signup = () => {
   const [error, setError] = useState('');
   const { signup } = useAuth();
   const navigate = useNavigate();
+  const toast = useToast();
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -33,9 +35,11 @@ const Signup = () => {
 
     try {
       signup(name, email, password);
+      toast.success('Account created successfully! Welcome to EESTO.');
       navigate('/');
     } catch (err) {
       setError('Signup failed. Please try again.');
+      toast.error('Signup failed. Please try again.');
     }
   };
 

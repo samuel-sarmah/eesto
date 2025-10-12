@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
+import { useToast } from '../context/ToastContext';
 import './Auth.css';
 
 const Login = () => {
@@ -9,6 +10,7 @@ const Login = () => {
   const [error, setError] = useState('');
   const { login } = useAuth();
   const navigate = useNavigate();
+  const toast = useToast();
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -21,9 +23,11 @@ const Login = () => {
 
     try {
       login(email, password);
+      toast.success('Login successful! Welcome back.');
       navigate('/');
     } catch (err) {
       setError('Login failed. Please try again.');
+      toast.error('Login failed. Please check your credentials.');
     }
   };
 

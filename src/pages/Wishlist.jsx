@@ -2,14 +2,22 @@ import { Link } from 'react-router-dom';
 import { Heart, ShoppingCart } from 'lucide-react';
 import { useWishlist } from '../context/WishlistContext';
 import { useCart } from '../context/CartContext';
+import { useToast } from '../context/ToastContext';
 import './Wishlist.css';
 
 const Wishlist = () => {
   const { wishlist, removeFromWishlist } = useWishlist();
   const { addToCart } = useCart();
+  const toast = useToast();
 
   const handleAddToCart = (product) => {
     addToCart(product, product.sizes[0], product.colors[0], 1);
+    toast.success('Product added to cart!');
+  };
+
+  const handleRemove = (productId) => {
+    removeFromWishlist(productId);
+    toast.info('Removed from wishlist');
   };
 
   if (wishlist.length === 0) {
@@ -73,7 +81,7 @@ const Wishlist = () => {
                   
                   <button
                     className="remove-btn"
-                    onClick={() => removeFromWishlist(product.id)}
+                    onClick={() => handleRemove(product.id)}
                   >
                     Remove
                   </button>
