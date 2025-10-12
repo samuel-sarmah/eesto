@@ -1,11 +1,11 @@
 import { Link } from 'react-router-dom';
-import { Heart, ShoppingCart } from 'lucide-react';
+import { Heart, ShoppingCart, Eye } from 'lucide-react';
 import { useWishlist } from '../context/WishlistContext';
 import { useCart } from '../context/CartContext';
 import { useState } from 'react';
 import './ProductCard.css';
 
-const ProductCard = ({ product }) => {
+const ProductCard = ({ product, onQuickView }) => {
   const { isInWishlist, toggleWishlist } = useWishlist();
   const { addToCart } = useCart();
   const [isAdded, setIsAdded] = useState(false);
@@ -20,6 +20,11 @@ const ProductCard = ({ product }) => {
   const handleWishlistToggle = (e) => {
     e.preventDefault();
     toggleWishlist(product);
+  };
+
+  const handleQuickView = (e) => {
+    e.preventDefault();
+    if (onQuickView) onQuickView(product);
   };
 
   const discount = product.originalPrice
@@ -44,6 +49,17 @@ const ProductCard = ({ product }) => {
           >
             <Heart size={20} fill={isInWishlist(product.id) ? 'currentColor' : 'none'} />
           </button>
+          
+          {onQuickView && (
+            <button
+              className="quick-view-btn"
+              onClick={handleQuickView}
+              aria-label="Quick view"
+            >
+              <Eye size={20} />
+            </button>
+          )}
+          
           {product.inStock && (
             <button
               className={`quick-add-btn ${isAdded ? 'added' : ''}`}

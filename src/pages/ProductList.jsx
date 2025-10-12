@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { Filter, X } from 'lucide-react';
 import ProductCard from '../components/ProductCard';
+import QuickView from '../components/QuickView';
 import { products } from '../data/products';
 import './ProductList.css';
 
@@ -16,6 +17,18 @@ const ProductList = () => {
     inStock: false
   });
   const [showFilters, setShowFilters] = useState(false);
+  const [quickViewProduct, setQuickViewProduct] = useState(null);
+  const [showQuickView, setShowQuickView] = useState(false);
+
+  const handleQuickView = (product) => {
+    setQuickViewProduct(product);
+    setShowQuickView(true);
+  };
+
+  const closeQuickView = () => {
+    setShowQuickView(false);
+    setTimeout(() => setQuickViewProduct(null), 300);
+  };
 
   useEffect(() => {
     let result = [...products];
@@ -276,7 +289,11 @@ const ProductList = () => {
             {filteredProducts.length > 0 ? (
               <div className="products-grid">
                 {filteredProducts.map(product => (
-                  <ProductCard key={product.id} product={product} />
+                  <ProductCard 
+                    key={product.id} 
+                    product={product}
+                    onQuickView={handleQuickView}
+                  />
                 ))}
               </div>
             ) : (
@@ -290,6 +307,13 @@ const ProductList = () => {
           </div>
         </div>
       </div>
+
+      {/* Quick View Modal */}
+      <QuickView 
+        product={quickViewProduct}
+        isOpen={showQuickView}
+        onClose={closeQuickView}
+      />
     </div>
   );
 };

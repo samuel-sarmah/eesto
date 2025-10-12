@@ -1,6 +1,8 @@
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Truck, RotateCcw, Shield, TrendingUp } from 'lucide-react';
 import ProductCard from '../components/ProductCard';
+import QuickView from '../components/QuickView';
 import Logo from '../components/Logo';
 import { products } from '../data/products';
 import './Home.css';
@@ -8,6 +10,18 @@ import './Home.css';
 const Home = () => {
   const featuredProducts = products.filter(p => p.featured).slice(0, 8);
   const newArrivals = products.slice(0, 4);
+  const [quickViewProduct, setQuickViewProduct] = useState(null);
+  const [showQuickView, setShowQuickView] = useState(false);
+
+  const handleQuickView = (product) => {
+    setQuickViewProduct(product);
+    setShowQuickView(true);
+  };
+
+  const closeQuickView = () => {
+    setShowQuickView(false);
+    setTimeout(() => setQuickViewProduct(null), 300);
+  };
 
   return (
     <div className="home">
@@ -91,7 +105,11 @@ const Home = () => {
           </div>
           <div className="products-grid">
             {featuredProducts.map(product => (
-              <ProductCard key={product.id} product={product} />
+              <ProductCard 
+                key={product.id} 
+                product={product}
+                onQuickView={handleQuickView}
+              />
             ))}
           </div>
         </div>
@@ -121,7 +139,11 @@ const Home = () => {
           </div>
           <div className="products-grid">
             {newArrivals.map(product => (
-              <ProductCard key={product.id} product={product} />
+              <ProductCard 
+                key={product.id} 
+                product={product}
+                onQuickView={handleQuickView}
+              />
             ))}
           </div>
         </div>
@@ -140,6 +162,13 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      {/* Quick View Modal */}
+      <QuickView 
+        product={quickViewProduct}
+        isOpen={showQuickView}
+        onClose={closeQuickView}
+      />
     </div>
   );
 };

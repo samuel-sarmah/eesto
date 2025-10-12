@@ -6,6 +6,7 @@ import { useCart } from '../context/CartContext';
 import { useWishlist } from '../context/WishlistContext';
 import { useToast } from '../context/ToastContext';
 import ProductCard from '../components/ProductCard';
+import ReviewSection from '../components/ReviewSection';
 import './ProductDetail.css';
 
 const ProductDetail = () => {
@@ -212,6 +213,9 @@ const ProductDetail = () => {
             </div>
           </div>
         </div>
+
+        {/* Review Section */}
+        <ReviewSection productId={product.id} />
 
         {relatedProducts.length > 0 && (
           <div className="related-products">
