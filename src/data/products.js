@@ -8,8 +8,8 @@ export const products = [
     originalPrice: 39.99,
     description: "Premium cotton t-shirt with a modern fit. Perfect for casual wear and layering.",
     images: [
-      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500",
-      "https://images.unsplash.com/photo-1622445275463-afa2ab738c34?w=500"
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1622445275463-afa2ab738c34?w=500&q=80&fit=crop"
     ],
     sizes: ["XS", "S", "M", "L", "XL", "XXL"],
     colors: ["White", "Black", "Gray", "Navy"],
@@ -26,8 +26,8 @@ export const products = [
     price: 79.99,
     description: "Stylish slim fit jeans with stretch denim for ultimate comfort.",
     images: [
-      "https://images.unsplash.com/photo-1542272604-787c3835535d?w=500",
-      "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=500"
+      "https://images.unsplash.com/photo-1542272604-787c3835535d?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=500&q=80&fit=crop"
     ],
     sizes: ["28", "30", "32", "34", "36", "38"],
     colors: ["Dark Blue", "Light Blue", "Black"],
@@ -45,8 +45,8 @@ export const products = [
     originalPrice: 119.99,
     description: "Beautiful floral print dress perfect for summer occasions.",
     images: [
-      "https://images.unsplash.com/photo-1572804013427-4d7ca7268217?w=500",
-      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500"
+      "https://images.unsplash.com/photo-1572804013427-4d7ca7268217?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500&q=80&fit=crop"
     ],
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["Floral Blue", "Floral Pink", "Floral Yellow"],
@@ -63,8 +63,8 @@ export const products = [
     price: 249.99,
     description: "Premium leather jacket with modern design and comfortable fit.",
     images: [
-      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500",
-      "https://images.unsplash.com/photo-1520975954732-35dd22299614?w=500"
+      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1520975954732-35dd22299614?w=500&q=80&fit=crop"
     ],
     sizes: ["S", "M", "L", "XL"],
     colors: ["Black", "Brown", "Tan"],
@@ -82,8 +82,8 @@ export const products = [
     originalPrice: 169.99,
     description: "Elegant blazer perfect for office and casual events.",
     images: [
-      "https://images.unsplash.com/photo-1591369822096-ffd140ec948f?w=500",
-      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500"
+      "https://images.unsplash.com/photo-1591369822096-ffd140ec948f?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&q=80&fit=crop"
     ],
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["Black", "Navy", "Beige", "White"],
@@ -100,8 +100,8 @@ export const products = [
     price: 69.99,
     description: "Modern skinny fit jeans with stretch for all-day comfort.",
     images: [
-      "https://images.unsplash.com/photo-1584370848010-d7fe6bc767ec?w=500",
-      "https://images.unsplash.com/photo-1605518216938-7c31b7b14ad0?w=500"
+      "https://images.unsplash.com/photo-1584370848010-d7fe6bc767ec?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1605518216938-7c31b7b14ad0?w=500&q=80&fit=crop"
     ],
     sizes: ["24", "26", "28", "30", "32"],
     colors: ["Dark Blue", "Black", "Light Blue"],
@@ -118,8 +118,8 @@ export const products = [
     price: 49.99,
     description: "Classic polo shirt with modern striped design.",
     images: [
-      "https://images.unsplash.com/photo-1586363104862-3a5e2ab60d99?w=500",
-      "https://images.unsplash.com/photo-1594938291221-94f18cbb5660?w=500"
+      "https://images.unsplash.com/photo-1586363104862-3a5e2ab60d99?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1594938291221-94f18cbb5660?w=500&q=80&fit=crop"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: ["Navy/White", "Black/Gray", "Red/White"],
@@ -137,8 +137,8 @@ export const products = [
     originalPrice: 79.99,
     description: "Cozy knit sweater perfect for cooler weather.",
     images: [
-      "https://images.unsplash.com/photo-1576871337622-98d48d1cf531?w=500",
-      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=500"
+      "https://images.unsplash.com/photo-1576871337622-98d48d1cf531?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=500&q=80&fit=crop"
     ],
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["Cream", "Gray", "Burgundy", "Navy"],
@@ -155,8 +155,8 @@ export const products = [
     price: 64.99,
     description: "Comfortable hoodie ideal for workouts and casual wear.",
     images: [
-      "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=500",
-      "https://images.unsplash.com/photo-1620799140188-3b2a02fd9a77?w=500"
+      "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1620799140188-3b2a02fd9a77?w=500&q=80&fit=crop"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: ["Black", "Gray", "Navy", "Green"],
@@ -173,8 +173,8 @@ export const products = [
     price: 54.99,
     description: "Elegant flowing maxi skirt for any occasion.",
     images: [
-      "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=500",
-      "https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?w=500"
+      "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?w=500&q=80&fit=crop"
     ],
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["Black", "Burgundy", "Olive", "Mustard"],
@@ -191,8 +191,8 @@ export const products = [
     price: 59.99,
     description: "Versatile chino pants perfect for smart casual looks.",
     images: [
-      "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=500",
-      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=500"
+      "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=500&q=80&fit=crop"
     ],
     sizes: ["28", "30", "32", "34", "36", "38"],
     colors: ["Khaki", "Navy", "Black", "Olive"],
@@ -210,8 +210,8 @@ export const products = [
     originalPrice: 99.99,
     description: "Luxurious silk blouse with elegant design.",
     images: [
-      "https://images.unsplash.com/photo-1564859228273-274232fdb516?w=500",
-      "https://images.unsplash.com/photo-1618932260643-eee4a2f652a6?w=500"
+      "https://images.unsplash.com/photo-1564859228273-274232fdb516?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1618932260643-eee4a2f652a6?w=500&q=80&fit=crop"
     ],
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["White", "Black", "Blush", "Navy"],
@@ -228,8 +228,8 @@ export const products = [
     price: 39.99,
     description: "Comfortable cotton henley perfect for casual occasions.",
     images: [
-      "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=500",
-      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=500"
+      "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=500&q=80&fit=crop"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: ["White", "Gray", "Navy", "Burgundy"],
@@ -247,8 +247,8 @@ export const products = [
     originalPrice: 129.99,
     description: "Elegant wrap dress with adjustable fit and flattering silhouette.",
     images: [
-      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500",
-      "https://images.unsplash.com/photo-1612423284934-2850a4ea6b0f?w=500"
+      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1612423284934-2850a4ea6b0f?w=500&q=80&fit=crop"
     ],
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["Red", "Black", "Emerald", "Navy"],
@@ -265,8 +265,8 @@ export const products = [
     price: 44.99,
     description: "Functional cargo shorts with multiple pockets.",
     images: [
-      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=500",
-      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=500"
+      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=500&q=80&fit=crop"
     ],
     sizes: ["28", "30", "32", "34", "36", "38"],
     colors: ["Khaki", "Olive", "Navy", "Black"],
@@ -283,8 +283,8 @@ export const products = [
     price: 69.99,
     description: "Cozy turtleneck sweater in soft merino wool blend.",
     images: [
-      "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=500",
-      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=500"
+      "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=500&q=80&fit=crop"
     ],
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["Black", "Cream", "Camel", "Forest Green"],
@@ -301,8 +301,8 @@ export const products = [
     price: 54.99,
     description: "Comfortable track pants with tapered fit and side pockets.",
     images: [
-      "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=500",
-      "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?w=500"
+      "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?w=500&q=80&fit=crop"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: ["Black", "Navy", "Gray", "Olive"],
@@ -320,8 +320,8 @@ export const products = [
     originalPrice: 79.99,
     description: "Professional pencil skirt with back slit detail.",
     images: [
-      "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=500",
-      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500"
+      "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&q=80&fit=crop"
     ],
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["Black", "Navy", "Burgundy", "Gray"],
@@ -338,8 +338,8 @@ export const products = [
     price: 129.99,
     description: "Classic bomber jacket with ribbed cuffs and hem.",
     images: [
-      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=500",
-      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500"
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500&q=80&fit=crop"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: ["Black", "Olive", "Navy", "Burgundy"],
@@ -356,8 +356,8 @@ export const products = [
     price: 64.99,
     description: "Breathable linen button-up perfect for warm weather.",
     images: [
-      "https://images.unsplash.com/photo-1624206112431-4e92c3a2e3ca?w=500",
-      "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=500"
+      "https://images.unsplash.com/photo-1624206112431-4e92c3a2e3ca?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=500&q=80&fit=crop"
     ],
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["White", "Beige", "Sky Blue", "Sage"],
@@ -375,8 +375,8 @@ export const products = [
     originalPrice: 89.99,
     description: "Classic oxford dress shirt for formal occasions.",
     images: [
-      "https://images.unsplash.com/photo-1602810319428-019690571b5b?w=500",
-      "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=500"
+      "https://images.unsplash.com/photo-1602810319428-019690571b5b?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=500&q=80&fit=crop"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: ["White", "Light Blue", "Pink", "Lavender"],
@@ -394,8 +394,8 @@ export const products = [
     originalPrice: 189.99,
     description: "Stunning cocktail dress perfect for special events.",
     images: [
-      "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=500",
-      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500"
+      "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500&q=80&fit=crop"
     ],
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["Black", "Red", "Emerald", "Royal Blue"],
@@ -412,8 +412,8 @@ export const products = [
     price: 74.99,
     description: "Modern cargo joggers with utility pockets and elastic cuffs.",
     images: [
-      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=500",
-      "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=500"
+      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=500&q=80&fit=crop"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: ["Black", "Olive", "Khaki", "Gray"],
@@ -431,8 +431,8 @@ export const products = [
     originalPrice: 199.99,
     description: "Luxurious cashmere cardigan with button closure.",
     images: [
-      "https://images.unsplash.com/photo-1591369822096-ffd140ec948f?w=500",
-      "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=500"
+      "https://images.unsplash.com/photo-1591369822096-ffd140ec948f?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=500&q=80&fit=crop"
     ],
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["Camel", "Black", "Cream", "Gray"],
@@ -449,8 +449,8 @@ export const products = [
     price: 54.99,
     description: "Moisture-wicking polo perfect for active lifestyle.",
     images: [
-      "https://images.unsplash.com/photo-1586363104862-3a5e2ab60d99?w=500",
-      "https://images.unsplash.com/photo-1594938291221-94f18cbb5660?w=500"
+      "https://images.unsplash.com/photo-1586363104862-3a5e2ab60d99?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1594938291221-94f18cbb5660?w=500&q=80&fit=crop"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: ["White", "Navy", "Black", "Red"],
@@ -467,8 +467,8 @@ export const products = [
     price: 64.99,
     description: "Trendy high-waist culottes with wide leg silhouette.",
     images: [
-      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500",
-      "https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?w=500"
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?w=500&q=80&fit=crop"
     ],
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["Black", "Navy", "Tan", "White"],
@@ -486,8 +486,8 @@ export const products = [
     originalPrice: 119.99,
     description: "Insulated puffer vest for layering in cold weather.",
     images: [
-      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500",
-      "https://images.unsplash.com/photo-1520975954732-35dd22299614?w=500"
+      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1520975954732-35dd22299614?w=500&q=80&fit=crop"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: ["Black", "Navy", "Olive", "Red"],
@@ -504,8 +504,8 @@ export const products = [
     price: 49.99,
     description: "Stylish bodycon mini dress for night out.",
     images: [
-      "https://images.unsplash.com/photo-1612423284934-2850a4ea6b0f?w=500",
-      "https://images.unsplash.com/photo-1572804013427-4d7ca7268217?w=500"
+      "https://images.unsplash.com/photo-1612423284934-2850a4ea6b0f?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1572804013427-4d7ca7268217?w=500&q=80&fit=crop"
     ],
     sizes: ["XS", "S", "M", "L"],
     colors: ["Black", "Red", "White", "Emerald"],
@@ -522,8 +522,8 @@ export const products = [
     price: 59.99,
     description: "Classic flannel shirt with button-down collar.",
     images: [
-      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=500",
-      "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=500"
+      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=500&q=80&fit=crop"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: ["Red/Black", "Blue/Black", "Green/Black", "Gray"],
@@ -541,8 +541,8 @@ export const products = [
     originalPrice: 99.99,
     description: "Elegant pleated midi skirt with elastic waistband.",
     images: [
-      "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=500",
-      "https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?w=500"
+      "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?w=500&q=80&fit=crop"
     ],
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["Black", "Navy", "Blush", "Silver"],
@@ -560,8 +560,8 @@ export const products = [
     originalPrice: 249.99,
     description: "Classic double-breasted wool peacoat for winter elegance.",
     images: [
-      "https://images.unsplash.com/photo-1544022613-e87ca75a784a?w=500",
-      "https://images.unsplash.com/photo-1520975954732-35dd22299614?w=500"
+      "https://images.unsplash.com/photo-1544022613-e87ca75a784a?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1520975954732-35dd22299614?w=500&q=80&fit=crop"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: ["Charcoal", "Navy", "Black", "Camel"],
@@ -578,8 +578,8 @@ export const products = [
     price: 24.99,
     description: "Essential ribbed tank top in soft cotton blend.",
     images: [
-      "https://images.unsplash.com/photo-1542838686-e3d6b8d8e462?w=500",
-      "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=500"
+      "https://images.unsplash.com/photo-1542838686-e3d6b8d8e462?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=500&q=80&fit=crop"
     ],
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["White", "Black", "Beige", "Gray", "Olive"],
@@ -596,8 +596,8 @@ export const products = [
     price: 64.99,
     description: "Classic chino pants with modern slim fit.",
     images: [
-      "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=500",
-      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=500"
+      "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=500&q=80&fit=crop"
     ],
     sizes: ["28", "30", "32", "34", "36", "38"],
     colors: ["Khaki", "Navy", "Black", "Olive", "Stone"],
@@ -615,8 +615,8 @@ export const products = [
     originalPrice: 119.99,
     description: "Flowing maxi dress perfect for summer occasions.",
     images: [
-      "https://images.unsplash.com/photo-1572804013427-4d7ca7268217?w=500",
-      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500"
+      "https://images.unsplash.com/photo-1572804013427-4d7ca7268217?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500&q=80&fit=crop"
     ],
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["Floral Print", "Navy", "Emerald", "Burgundy"],
@@ -633,8 +633,8 @@ export const products = [
     price: 34.99,
     description: "3-pack essential v-neck t-shirts in premium cotton.",
     images: [
-      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500",
-      "https://images.unsplash.com/photo-1602810319428-019690571b5b?w=500"
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1602810319428-019690571b5b?w=500&q=80&fit=crop"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: ["White/Gray/Black", "Navy/Gray/White"],
@@ -652,8 +652,8 @@ export const products = [
     originalPrice: 159.99,
     description: "Tailored blazer jacket for professional look.",
     images: [
-      "https://images.unsplash.com/photo-1591369822096-ffd140ec948f?w=500",
-      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500"
+      "https://images.unsplash.com/photo-1591369822096-ffd140ec948f?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&q=80&fit=crop"
     ],
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["Black", "Navy", "Gray", "Beige"],
@@ -670,8 +670,8 @@ export const products = [
     price: 49.99,
     description: "Trendy graphic sweatshirt with vintage print.",
     images: [
-      "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=500",
-      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=500"
+      "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=500&q=80&fit=crop"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: ["Gray", "Black", "White", "Navy"],
@@ -688,8 +688,8 @@ export const products = [
     price: 79.99,
     description: "Elegant wide leg trousers with high waist.",
     images: [
-      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500",
-      "https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?w=500"
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?w=500&q=80&fit=crop"
     ],
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["Black", "Navy", "Cream", "Camel"],
@@ -706,8 +706,8 @@ export const products = [
     price: 94.99,
     description: "Waterproof rain jacket with adjustable hood.",
     images: [
-      "https://images.unsplash.com/photo-1544022613-e87ca75a784a?w=500",
-      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500"
+      "https://images.unsplash.com/photo-1544022613-e87ca75a784a?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500&q=80&fit=crop"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: ["Black", "Navy", "Olive", "Yellow"],
@@ -725,8 +725,8 @@ export const products = [
     originalPrice: 89.99,
     description: "Silky slip dress with adjustable straps.",
     images: [
-      "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=500",
-      "https://images.unsplash.com/photo-1612423284934-2850a4ea6b0f?w=500"
+      "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1612423284934-2850a4ea6b0f?w=500&q=80&fit=crop"
     ],
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["Black", "Champagne", "Emerald", "Burgundy"],
@@ -743,8 +743,8 @@ export const products = [
     price: 39.99,
     description: "Comfortable linen shorts for summer relaxation.",
     images: [
-      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=500",
-      "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=500"
+      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=500&q=80&fit=crop"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: ["Beige", "White", "Navy", "Olive"],
@@ -761,8 +761,8 @@ export const products = [
     price: 54.99,
     description: "Trendy cropped cardigan with button front.",
     images: [
-      "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=500",
-      "https://images.unsplash.com/photo-1591369822096-ffd140ec948f?w=500"
+      "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1591369822096-ffd140ec948f?w=500&q=80&fit=crop"
     ],
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["Black", "Cream", "Pink", "Lavender"],
@@ -780,8 +780,8 @@ export const products = [
     originalPrice: 179.99,
     description: "Insulated quilted jacket with zip pockets.",
     images: [
-      "https://images.unsplash.com/photo-1520975954732-35dd22299614?w=500",
-      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=500"
+      "https://images.unsplash.com/photo-1520975954732-35dd22299614?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=500&q=80&fit=crop"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: ["Black", "Navy", "Olive", "Gray"],
@@ -798,8 +798,8 @@ export const products = [
     price: 99.99,
     description: "Stylish jumpsuit with wide leg and belt detail.",
     images: [
-      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500",
-      "https://images.unsplash.com/photo-1572804013427-4d7ca7268217?w=500"
+      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1572804013427-4d7ca7268217?w=500&q=80&fit=crop"
     ],
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["Black", "Navy", "Terracotta", "Forest Green"],
@@ -816,8 +816,8 @@ export const products = [
     price: 44.99,
     description: "Comfortable sweatpants with elastic waistband.",
     images: [
-      "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?w=500",
-      "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=500"
+      "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=500&q=80&fit=crop"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: ["Gray", "Black", "Navy", "Charcoal"],
@@ -835,8 +835,8 @@ export const products = [
     originalPrice: 79.99,
     description: "Feminine peplum top with flared hem.",
     images: [
-      "https://images.unsplash.com/photo-1564859228273-274232fdb516?w=500",
-      "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=500"
+      "https://images.unsplash.com/photo-1564859228273-274232fdb516?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=500&q=80&fit=crop"
     ],
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["White", "Black", "Red", "Navy"],
@@ -853,8 +853,8 @@ export const products = [
     price: 109.99,
     description: "Multi-pocket utility jacket for outdoor adventures.",
     images: [
-      "https://images.unsplash.com/photo-1544022613-e87ca75a784a?w=500",
-      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500"
+      "https://images.unsplash.com/photo-1544022613-e87ca75a784a?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500&q=80&fit=crop"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: ["Olive", "Black", "Khaki", "Navy"],
@@ -871,8 +871,8 @@ export const products = [
     price: 84.99,
     description: "Elegant halter neck dress for evening wear.",
     images: [
-      "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=500",
-      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500"
+      "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500&q=80&fit=crop"
     ],
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["Black", "Red", "Navy", "Emerald"],
@@ -890,8 +890,8 @@ export const products = [
     originalPrice: 89.99,
     description: "Retro corduroy pants with straight leg fit.",
     images: [
-      "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=500",
-      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=500"
+      "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=500&q=80&fit=crop"
     ],
     sizes: ["28", "30", "32", "34", "36", "38"],
     colors: ["Tan", "Navy", "Brown", "Olive"],
@@ -908,8 +908,8 @@ export const products = [
     price: 44.99,
     description: "Romantic off-shoulder top with elastic neckline.",
     images: [
-      "https://images.unsplash.com/photo-1542838686-e3d6b8d8e462?w=500",
-      "https://images.unsplash.com/photo-1564859228273-274232fdb516?w=500"
+      "https://images.unsplash.com/photo-1542838686-e3d6b8d8e462?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1564859228273-274232fdb516?w=500&q=80&fit=crop"
     ],
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["White", "Black", "Blush", "Navy"],
@@ -926,8 +926,8 @@ export const products = [
     price: 79.99,
     description: "Lightweight windbreaker with packable design.",
     images: [
-      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500",
-      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=500"
+      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=500&q=80&fit=crop"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: ["Black", "Navy", "Red", "Teal"],
@@ -944,8 +944,8 @@ export const products = [
     price: 64.99,
     description: "Relaxed tunic dress with three-quarter sleeves.",
     images: [
-      "https://images.unsplash.com/photo-1572804013427-4d7ca7268217?w=500",
-      "https://images.unsplash.com/photo-1612423284934-2850a4ea6b0f?w=500"
+      "https://images.unsplash.com/photo-1572804013427-4d7ca7268217?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1612423284934-2850a4ea6b0f?w=500&q=80&fit=crop"
     ],
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["Navy", "Black", "Burgundy", "Forest Green"],
@@ -962,8 +962,8 @@ export const products = [
     price: 29.99,
     description: "Breathable mesh tank top for athletic wear.",
     images: [
-      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500",
-      "https://images.unsplash.com/photo-1602810319428-019690571b5b?w=500"
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1602810319428-019690571b5b?w=500&q=80&fit=crop"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: ["Black", "White", "Gray", "Navy"],
@@ -981,8 +981,8 @@ export const products = [
     originalPrice: 169.99,
     description: "Faux leather mini skirt with zipper detail.",
     images: [
-      "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=500",
-      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500"
+      "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&q=80&fit=crop"
     ],
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["Black", "Brown", "Burgundy"],
@@ -999,8 +999,8 @@ export const products = [
     price: 64.99,
     description: "Athletic track jacket with stripe detail.",
     images: [
-      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=500",
-      "https://images.unsplash.com/photo-1520975954732-35dd22299614?w=500"
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1520975954732-35dd22299614?w=500&q=80&fit=crop"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: ["Black/White", "Navy/White", "Green/White"],
@@ -1017,8 +1017,8 @@ export const products = [
     price: 74.99,
     description: "Classic shirt dress with belt and pockets.",
     images: [
-      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500",
-      "https://images.unsplash.com/photo-1572804013427-4d7ca7268217?w=500"
+      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1572804013427-4d7ca7268217?w=500&q=80&fit=crop"
     ],
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["White", "Chambray", "Black", "Khaki"],
@@ -1035,8 +1035,8 @@ export const products = [
     price: 34.99,
     description: "Lightweight basketball shorts with mesh lining.",
     images: [
-      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=500",
-      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=500"
+      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=500&q=80&fit=crop"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: ["Black", "Navy", "Red", "Gray"],
@@ -1054,8 +1054,8 @@ export const products = [
     originalPrice: 89.99,
     description: "Cozy cowl neck sweater in soft knit fabric.",
     images: [
-      "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=500",
-      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=500"
+      "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=500&q=80&fit=crop"
     ],
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["Cream", "Gray", "Navy", "Burgundy"],
@@ -1073,8 +1073,8 @@ export const products = [
     originalPrice: 219.99,
     description: "Heavy-duty parka with fur-lined hood.",
     images: [
-      "https://images.unsplash.com/photo-1544022613-e87ca75a784a?w=500",
-      "https://images.unsplash.com/photo-1520975954732-35dd22299614?w=500"
+      "https://images.unsplash.com/photo-1544022613-e87ca75a784a?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1520975954732-35dd22299614?w=500&q=80&fit=crop"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: ["Black", "Olive", "Navy", "Charcoal"],
@@ -1091,8 +1091,8 @@ export const products = [
     price: 159.99,
     description: "Glamorous sequin dress for special occasions.",
     images: [
-      "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=500",
-      "https://images.unsplash.com/photo-1612423284934-2850a4ea6b0f?w=500"
+      "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1612423284934-2850a4ea6b0f?w=500&q=80&fit=crop"
     ],
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["Gold", "Silver", "Black", "Rose Gold"],
@@ -1109,8 +1109,8 @@ export const products = [
     price: 59.99,
     description: "Tactical cargo vest with multiple utility pockets.",
     images: [
-      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500",
-      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=500"
+      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=500&q=80&fit=crop"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: ["Black", "Olive", "Tan", "Navy"],
@@ -1127,8 +1127,8 @@ export const products = [
     price: 64.99,
     description: "Flowy palazzo pants with elastic waistband.",
     images: [
-      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500",
-      "https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?w=500"
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?w=500&q=80&fit=crop"
     ],
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["Black", "Navy", "Burgundy", "Print"],
@@ -1145,8 +1145,8 @@ export const products = [
     price: 49.99,
     description: "Fitted muscle shirt for athletic build.",
     images: [
-      "https://images.unsplash.com/photo-1602810319428-019690571b5b?w=500",
-      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500"
+      "https://images.unsplash.com/photo-1602810319428-019690571b5b?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&q=80&fit=crop"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: ["White", "Black", "Navy", "Gray"],
@@ -1164,8 +1164,8 @@ export const products = [
     originalPrice: 99.99,
     description: "Flowing kimono cardigan with fringe detail.",
     images: [
-      "https://images.unsplash.com/photo-1591369822096-ffd140ec948f?w=500",
-      "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=500"
+      "https://images.unsplash.com/photo-1591369822096-ffd140ec948f?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=500&q=80&fit=crop"
     ],
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["Black", "Navy", "Print", "Burgundy"],
@@ -1182,8 +1182,8 @@ export const products = [
     price: 89.99,
     description: "Classic denim jacket with distressed finish.",
     images: [
-      "https://images.unsplash.com/photo-1544022613-e87ca75a784a?w=500",
-      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=500"
+      "https://images.unsplash.com/photo-1544022613-e87ca75a784a?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=500&q=80&fit=crop"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: ["Light Blue", "Dark Blue", "Black"],
@@ -1200,8 +1200,8 @@ export const products = [
     price: 79.99,
     description: "Comfortable sweater dress for casual elegance.",
     images: [
-      "https://images.unsplash.com/photo-1572804013427-4d7ca7268217?w=500",
-      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500"
+      "https://images.unsplash.com/photo-1572804013427-4d7ca7268217?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500&q=80&fit=crop"
     ],
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["Gray", "Black", "Camel", "Burgundy"],
@@ -1218,8 +1218,8 @@ export const products = [
     price: 29.99,
     description: "Lightweight running shorts with built-in liner.",
     images: [
-      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=500",
-      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=500"
+      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=500&q=80&fit=crop"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: ["Black", "Navy", "Red", "Teal"],
@@ -1236,8 +1236,8 @@ export const products = [
     price: 49.99,
     description: "Trendy cropped hoodie with drawstring hood.",
     images: [
-      "https://images.unsplash.com/photo-1542838686-e3d6b8d8e462?w=500",
-      "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=500"
+      "https://images.unsplash.com/photo-1542838686-e3d6b8d8e462?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=500&q=80&fit=crop"
     ],
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["Black", "Gray", "Pink", "White"],
@@ -1255,8 +1255,8 @@ export const products = [
     originalPrice: 149.99,
     description: "Cozy sherpa jacket for cold weather comfort.",
     images: [
-      "https://images.unsplash.com/photo-1520975954732-35dd22299614?w=500",
-      "https://images.unsplash.com/photo-1544022613-e87ca75a784a?w=500"
+      "https://images.unsplash.com/photo-1520975954732-35dd22299614?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1544022613-e87ca75a784a?w=500&q=80&fit=crop"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: ["Cream", "Brown", "Navy", "Gray"],
@@ -1273,8 +1273,8 @@ export const products = [
     price: 54.99,
     description: "Classic a-line skirt with hidden zip closure.",
     images: [
-      "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=500",
-      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500"
+      "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&q=80&fit=crop"
     ],
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["Black", "Navy", "Burgundy", "Gray"],
@@ -1291,8 +1291,8 @@ export const products = [
     price: 34.99,
     description: "Modern longline t-shirt with curved hem.",
     images: [
-      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500",
-      "https://images.unsplash.com/photo-1602810319428-019690571b5b?w=500"
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1602810319428-019690571b5b?w=500&q=80&fit=crop"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: ["White", "Black", "Gray", "Olive"],
@@ -1309,8 +1309,8 @@ export const products = [
     price: 59.99,
     description: "Romantic bell sleeve top with flowy silhouette.",
     images: [
-      "https://images.unsplash.com/photo-1564859228273-274232fdb516?w=500",
-      "https://images.unsplash.com/photo-1542838686-e3d6b8d8e462?w=500"
+      "https://images.unsplash.com/photo-1564859228273-274232fdb516?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1542838686-e3d6b8d8e462?w=500&q=80&fit=crop"
     ],
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["White", "Black", "Navy", "Blush"],
@@ -1327,8 +1327,8 @@ export const products = [
     price: 104.99,
     description: "Technical softshell jacket with water resistance.",
     images: [
-      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500",
-      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=500"
+      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=500&q=80&fit=crop"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: ["Black", "Navy", "Gray", "Red"],
@@ -1345,8 +1345,8 @@ export const products = [
     price: 39.99,
     description: "Casual t-shirt dress with relaxed fit.",
     images: [
-      "https://images.unsplash.com/photo-1572804013427-4d7ca7268217?w=500",
-      "https://images.unsplash.com/photo-1612423284934-2850a4ea6b0f?w=500"
+      "https://images.unsplash.com/photo-1572804013427-4d7ca7268217?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1612423284934-2850a4ea6b0f?w=500&q=80&fit=crop"
     ],
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["Black", "White", "Gray", "Navy"],
@@ -1363,8 +1363,8 @@ export const products = [
     price: 44.99,
     description: "Classic chino shorts with slim fit.",
     images: [
-      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=500",
-      "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=500"
+      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=500&q=80&fit=crop"
     ],
     sizes: ["28", "30", "32", "34", "36", "38"],
     colors: ["Khaki", "Navy", "Olive", "Stone"],
@@ -1382,8 +1382,8 @@ export const products = [
     originalPrice: 59.99,
     description: "Sheer mesh bodysuit with snap closure.",
     images: [
-      "https://images.unsplash.com/photo-1542838686-e3d6b8d8e462?w=500",
-      "https://images.unsplash.com/photo-1564859228273-274232fdb516?w=500"
+      "https://images.unsplash.com/photo-1542838686-e3d6b8d8e462?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1564859228273-274232fdb516?w=500&q=80&fit=crop"
     ],
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["Black", "White", "Nude"],
@@ -1400,8 +1400,8 @@ export const products = [
     price: 134.99,
     description: "Military-inspired field jacket with button pockets.",
     images: [
-      "https://images.unsplash.com/photo-1544022613-e87ca75a784a?w=500",
-      "https://images.unsplash.com/photo-1520975954732-35dd22299614?w=500"
+      "https://images.unsplash.com/photo-1544022613-e87ca75a784a?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1520975954732-35dd22299614?w=500&q=80&fit=crop"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: ["Olive", "Khaki", "Black", "Navy"],
@@ -1418,8 +1418,8 @@ export const products = [
     price: 54.99,
     description: "Classic denim mini skirt with front buttons.",
     images: [
-      "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=500",
-      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500"
+      "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&q=80&fit=crop"
     ],
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["Light Wash", "Dark Wash", "Black"],
@@ -1436,8 +1436,8 @@ export const products = [
     price: 39.99,
     description: "Performance compression shirt for athletic training.",
     images: [
-      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500",
-      "https://images.unsplash.com/photo-1602810319428-019690571b5b?w=500"
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1602810319428-019690571b5b?w=500&q=80&fit=crop"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: ["Black", "White", "Navy", "Red"],
@@ -1454,8 +1454,8 @@ export const products = [
     price: 39.99,
     description: "Luxe satin camisole with adjustable straps.",
     images: [
-      "https://images.unsplash.com/photo-1542838686-e3d6b8d8e462?w=500",
-      "https://images.unsplash.com/photo-1564859228273-274232fdb516?w=500"
+      "https://images.unsplash.com/photo-1542838686-e3d6b8d8e462?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1564859228273-274232fdb516?w=500&q=80&fit=crop"
     ],
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["Black", "White", "Champagne", "Blush"],
@@ -1473,8 +1473,8 @@ export const products = [
     originalPrice: 129.99,
     description: "Classic varsity jacket with contrast sleeves.",
     images: [
-      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=500",
-      "https://images.unsplash.com/photo-1520975954732-35dd22299614?w=500"
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1520975954732-35dd22299614?w=500&q=80&fit=crop"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: ["Black/White", "Navy/White", "Burgundy/White"],
@@ -1491,8 +1491,8 @@ export const products = [
     price: 69.99,
     description: "Relaxed smock dress with tiered design.",
     images: [
-      "https://images.unsplash.com/photo-1572804013427-4d7ca7268217?w=500",
-      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500"
+      "https://images.unsplash.com/photo-1572804013427-4d7ca7268217?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500&q=80&fit=crop"
     ],
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["White", "Black", "Print", "Navy"],
@@ -1509,8 +1509,8 @@ export const products = [
     price: 64.99,
     description: "Modern tech joggers with zip pockets.",
     images: [
-      "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?w=500",
-      "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=500"
+      "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=500&q=80&fit=crop"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: ["Black", "Navy", "Gray", "Olive"],
@@ -1528,8 +1528,8 @@ export const products = [
     originalPrice: 84.99,
     description: "Elegant wrap blouse with tie waist.",
     images: [
-      "https://images.unsplash.com/photo-1564859228273-274232fdb516?w=500",
-      "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=500"
+      "https://images.unsplash.com/photo-1564859228273-274232fdb516?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=500&q=80&fit=crop"
     ],
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["Black", "White", "Navy", "Burgundy"],
@@ -1546,8 +1546,8 @@ export const products = [
     price: 94.99,
     description: "Insulated down vest for layering.",
     images: [
-      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500",
-      "https://images.unsplash.com/photo-1520975954732-35dd22299614?w=500"
+      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1520975954732-35dd22299614?w=500&q=80&fit=crop"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: ["Black", "Navy", "Olive", "Burgundy"],
@@ -1564,8 +1564,8 @@ export const products = [
     price: 39.99,
     description: "Flirty skater skirt with flared hem.",
     images: [
-      "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=500",
-      "https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?w=500"
+      "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?w=500&q=80&fit=crop"
     ],
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["Black", "Navy", "Burgundy", "Print"],
@@ -1582,8 +1582,8 @@ export const products = [
     price: 29.99,
     description: "Classic striped t-shirt with crew neck.",
     images: [
-      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500",
-      "https://images.unsplash.com/photo-1602810319428-019690571b5b?w=500"
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1602810319428-019690571b5b?w=500&q=80&fit=crop"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: ["Navy/White", "Black/White", "Red/White"],
@@ -1601,8 +1601,8 @@ export const products = [
     originalPrice: 99.99,
     description: "Sparkly sequin top for evening glamour.",
     images: [
-      "https://images.unsplash.com/photo-1542838686-e3d6b8d8e462?w=500",
-      "https://images.unsplash.com/photo-1564859228273-274232fdb516?w=500"
+      "https://images.unsplash.com/photo-1542838686-e3d6b8d8e462?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1564859228273-274232fdb516?w=500&q=80&fit=crop"
     ],
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["Gold", "Silver", "Black", "Rose Gold"],
@@ -1619,8 +1619,8 @@ export const products = [
     price: 179.99,
     description: "Heavy-duty hooded parka for extreme cold.",
     images: [
-      "https://images.unsplash.com/photo-1544022613-e87ca75a784a?w=500",
-      "https://images.unsplash.com/photo-1520975954732-35dd22299614?w=500"
+      "https://images.unsplash.com/photo-1544022613-e87ca75a784a?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1520975954732-35dd22299614?w=500&q=80&fit=crop"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: ["Black", "Navy", "Olive", "Charcoal"],
@@ -1637,8 +1637,8 @@ export const products = [
     price: 94.99,
     description: "Romantic tiered maxi dress with ruffled layers.",
     images: [
-      "https://images.unsplash.com/photo-1572804013427-4d7ca7268217?w=500",
-      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500"
+      "https://images.unsplash.com/photo-1572804013427-4d7ca7268217?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500&q=80&fit=crop"
     ],
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["White", "Black", "Floral", "Navy"],
@@ -1655,8 +1655,8 @@ export const products = [
     price: 39.99,
     description: "Quick-dry swim trunks with mesh lining.",
     images: [
-      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=500",
-      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=500"
+      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=500&q=80&fit=crop"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: ["Navy", "Black", "Teal", "Red"],
@@ -1673,8 +1673,8 @@ export const products = [
     price: 34.99,
     description: "Stretchy bodycon skirt with elastic waist.",
     images: [
-      "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=500",
-      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500"
+      "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&q=80&fit=crop"
     ],
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["Black", "Navy", "Red", "Gray"],
@@ -1691,8 +1691,8 @@ export const products = [
     price: 24.99,
     description: "Moisture-wicking athletic tank for workouts.",
     images: [
-      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500",
-      "https://images.unsplash.com/photo-1602810319428-019690571b5b?w=500"
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1602810319428-019690571b5b?w=500&q=80&fit=crop"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: ["Black", "White", "Gray", "Navy"],
@@ -1710,8 +1710,8 @@ export const products = [
     originalPrice: 179.99,
     description: "Luxe velvet blazer for elegant occasions.",
     images: [
-      "https://images.unsplash.com/photo-1591369822096-ffd140ec948f?w=500",
-      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500"
+      "https://images.unsplash.com/photo-1591369822096-ffd140ec948f?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&q=80&fit=crop"
     ],
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["Black", "Burgundy", "Navy", "Emerald"],
@@ -1728,8 +1728,8 @@ export const products = [
     price: 79.99,
     description: "Trendy distressed jeans with ripped details.",
     images: [
-      "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=500",
-      "https://images.unsplash.com/photo-1542272604-787c3835535d?w=500"
+      "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1542272604-787c3835535d?w=500&q=80&fit=crop"
     ],
     sizes: ["28", "30", "32", "34", "36", "38"],
     colors: ["Light Wash", "Medium Wash", "Dark Wash"],
@@ -1746,8 +1746,8 @@ export const products = [
     price: 49.99,
     description: "Sexy backless top with tie detail.",
     images: [
-      "https://images.unsplash.com/photo-1542838686-e3d6b8d8e462?w=500",
-      "https://images.unsplash.com/photo-1564859228273-274232fdb516?w=500"
+      "https://images.unsplash.com/photo-1542838686-e3d6b8d8e462?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1564859228273-274232fdb516?w=500&q=80&fit=crop"
     ],
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["Black", "White", "Red", "Navy"],
@@ -1765,8 +1765,8 @@ export const products = [
     originalPrice: 199.99,
     description: "Premium suede jacket with zip closure.",
     images: [
-      "https://images.unsplash.com/photo-1544022613-e87ca75a784a?w=500",
-      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=500"
+      "https://images.unsplash.com/photo-1544022613-e87ca75a784a?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=500&q=80&fit=crop"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: ["Tan", "Black", "Brown", "Navy"],
@@ -1783,8 +1783,8 @@ export const products = [
     price: 29.99,
     description: "Classic tube top with elastic band.",
     images: [
-      "https://images.unsplash.com/photo-1542838686-e3d6b8d8e462?w=500",
-      "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=500"
+      "https://images.unsplash.com/photo-1542838686-e3d6b8d8e462?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=500&q=80&fit=crop"
     ],
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["Black", "White", "Red", "Navy"],
@@ -1801,8 +1801,8 @@ export const products = [
     price: 44.99,
     description: "Warm thermal henley for cold weather layering.",
     images: [
-      "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=500",
-      "https://images.unsplash.com/photo-1602810319428-019690571b5b?w=500"
+      "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1602810319428-019690571b5b?w=500&q=80&fit=crop"
     ],
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: ["Gray", "Black", "Navy", "Burgundy"],
@@ -1820,8 +1820,8 @@ export const products = [
     originalPrice: 299.99,
     description: "Stunning floor-length evening gown for formal events.",
     images: [
-      "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=500",
-      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500"
+      "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500&q=80&fit=crop"
     ],
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["Black", "Red", "Navy", "Emerald", "Gold"],

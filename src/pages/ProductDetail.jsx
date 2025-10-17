@@ -54,6 +54,10 @@ const ProductDetail = () => {
     setCurrentImage((prev) => (prev - 1 + product.images.length) % product.images.length);
   };
 
+  const handleImageError = (e) => {
+    e.target.src = `https://placehold.co/500x750/667eea/white?text=${encodeURIComponent(product.name)}`;
+  };
+
   return (
     <div className="product-detail-page">
       <div className="container">
@@ -67,7 +71,11 @@ const ProductDetail = () => {
         <div className="product-detail">
           <div className="product-images">
             <div className="main-image">
-              <img src={product.images[currentImage]} alt={product.name} />
+              <img 
+                src={product.images[currentImage]} 
+                alt={product.name}
+                onError={handleImageError}
+              />
               {product.images.length > 1 && (
                 <>
                   <button className="image-nav prev" onClick={prevImage}>
@@ -87,6 +95,7 @@ const ProductDetail = () => {
                   alt={`${product.name} ${index + 1}`}
                   className={currentImage === index ? 'active' : ''}
                   onClick={() => setCurrentImage(index)}
+                  onError={handleImageError}
                 />
               ))}
             </div>

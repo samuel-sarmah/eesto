@@ -67,6 +67,10 @@ const QuickView = ({ product, isOpen, onClose }) => {
     setCurrentImage((prev) => (prev - 1 + product.images.length) % product.images.length);
   };
 
+  const handleImageError = (e) => {
+    e.target.src = `https://placehold.co/500x750/667eea/white?text=${encodeURIComponent(product.name)}`;
+  };
+
   return (
     <div className="quick-view-overlay" onClick={onClose}>
       <div className="quick-view-modal" onClick={(e) => e.stopPropagation()}>
@@ -78,7 +82,11 @@ const QuickView = ({ product, isOpen, onClose }) => {
           {/* Image Gallery */}
           <div className="quick-view-gallery">
             <div className="main-image">
-              <img src={product.images[currentImage]} alt={product.name} />
+              <img 
+                src={product.images[currentImage]} 
+                alt={product.name}
+                onError={handleImageError}
+              />
               
               {product.images.length > 1 && (
                 <>
@@ -104,7 +112,11 @@ const QuickView = ({ product, isOpen, onClose }) => {
                     className={`thumbnail ${currentImage === index ? 'active' : ''}`}
                     onClick={() => setCurrentImage(index)}
                   >
-                    <img src={img} alt={`${product.name} ${index + 1}`} />
+                    <img 
+                      src={img} 
+                      alt={`${product.name} ${index + 1}`}
+                      onError={handleImageError}
+                    />
                   </button>
                 ))}
               </div>

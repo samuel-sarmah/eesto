@@ -31,12 +31,27 @@ const ProductCard = ({ product, onQuickView }) => {
     ? Math.round(((product.originalPrice - product.price) / product.originalPrice) * 100)
     : 0;
 
+  const handleImageError = (e) => {
+    e.target.src = `https://placehold.co/500x750/667eea/white?text=${encodeURIComponent(product.name)}`;
+  };
+
   return (
     <div className="product-card">
       <Link to={`/product/${product.id}`} className="product-image">
-        <img src={product.images[0]} alt={product.name} loading="lazy" />
+        <img 
+          src={product.images[0]} 
+          alt={product.name} 
+          loading="lazy" 
+          onError={handleImageError}
+        />
         {product.images[1] && (
-          <img src={product.images[1]} alt={product.name} className="hover-image" loading="lazy" />
+          <img 
+            src={product.images[1]} 
+            alt={product.name} 
+            className="hover-image" 
+            loading="lazy"
+            onError={handleImageError}
+          />
         )}
         {discount > 0 && <span className="discount-badge">-{discount}%</span>}
         {!product.inStock && <span className="out-of-stock-badge">Out of Stock</span>}
