@@ -12,7 +12,7 @@
 .admin-header h1 {
   font-size: 2.5rem;
   margin-bottom: 0.5rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: #000;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -45,11 +45,11 @@
 }
 
 .admin-tabs button:hover {
-  color: #667eea;
+  color: #000;
 }
 
 .admin-tabs button.active {
-  color: #667eea;
+  color: #000;
 }
 
 .admin-tabs button.active::after {
@@ -59,7 +59,7 @@
   left: 0;
   right: 0;
   height: 2px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: #000;
 }
 
 /* Dashboard Stats */
@@ -97,19 +97,19 @@
 }
 
 .stat-icon.revenue {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: #000;
 }
 
 .stat-icon.orders {
-  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  background: #333;
 }
 
 .stat-icon.products {
-  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  background: #555;
 }
 
 .stat-icon.customers {
-  background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+  background: #777;
 }
 
 .stat-details h3 {
@@ -223,7 +223,7 @@
 
 .order-amount {
   font-weight: 600;
-  color: #667eea;
+  color: #000;
 }
 
 .products-list {
@@ -266,7 +266,7 @@
 .product-info p {
   margin: 0;
   font-size: 0.85rem;
-  color: #667eea;
+  color: #000;
   font-weight: 600;
 }
 
@@ -327,7 +327,7 @@
   align-items: center;
   gap: 0.5rem;
   padding: 0.75rem 1.5rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: #000;
   color: white;
   border: none;
   border-radius: 8px;
@@ -482,7 +482,7 @@ tr:hover {
 .product-price .price {
   font-size: 1.2rem;
   font-weight: 600;
-  color: #667eea;
+  color: #000;
 }
 
 .product-price .original-price {
@@ -526,7 +526,7 @@ tr:hover {
 .edit-btn {
   flex: 1;
   padding: 0.5rem 1rem;
-  background: #667eea;
+  background: #000;
   color: white;
   border: none;
   border-radius: 6px;
@@ -634,7 +634,7 @@ form {
 .form-group select:focus,
 .form-group textarea:focus {
   outline: none;
-  border-color: #667eea;
+  border-color: #000;
 }
 
 .form-row {
@@ -670,7 +670,7 @@ form {
 }
 
 .modal-actions button.primary {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: #000;
   color: white;
 }
 

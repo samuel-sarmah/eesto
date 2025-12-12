@@ -32,7 +32,7 @@ const ProductCard = ({ product, onQuickView }) => {
     : 0;
 
   const handleImageError = (e) => {
-    e.target.src = `https://placehold.co/500x750/667eea/white?text=${encodeURIComponent(product.name)}`;
+    e.target.src = `https://placehold.co/500x750/f5f5f5/333333?text=${encodeURIComponent(product.name)}`;
   };
 
   return (

@@ -39,7 +39,7 @@
 .rating-number {
   font-size: 3.5rem;
   font-weight: bold;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: #000;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -52,7 +52,7 @@
 
 .write-review-btn {
   padding: 0.75rem 2rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: #000;
   color: white;
   border: none;
   border-radius: 8px;
@@ -99,7 +99,7 @@
 
 .rating-bar-fill {
   height: 100%;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: #000;
   transition: width 0.3s ease;
 }
 
@@ -184,7 +184,7 @@
 .form-group input:focus,
 .form-group textarea:focus {
   outline: none;
-  border-color: #667eea;
+  border-color: #000;
   box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
 }
 
@@ -202,7 +202,7 @@
 .submit-review-btn {
   align-self: flex-start;
   padding: 0.75rem 2rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: #000;
   color: white;
   border: none;
   border-radius: 8px;
@@ -250,7 +250,7 @@
 .filter-select:focus,
 .sort-select:focus {
   outline: none;
-  border-color: #667eea;
+  border-color: #000;
 }
 
 /* Reviews List */
@@ -289,7 +289,7 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: #000;
   color: white;
   display: flex;
   align-items: center;
@@ -365,8 +365,8 @@
 }
 
 .helpful-btn:hover {
-  border-color: #667eea;
-  color: #667eea;
+  border-color: #000;
+  color: #000;
   background: #f8f9ff;
 }
 

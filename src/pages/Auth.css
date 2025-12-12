@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   padding: 2rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: #000;
 }
 
 .auth-container {
@@ -65,13 +65,13 @@
 }
 
 .form-group input:focus {
-  border-color: #667eea;
+  border-color: #000;
 }
 
 .auth-btn {
   width: 100%;
   padding: 1rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: #000;
   color: white;
   border: none;
   border-radius: 50px;
@@ -100,7 +100,7 @@
 }
 
 .auth-footer a {
-  color: #667eea;
+  color: #000;
   text-decoration: none;
   font-weight: 600;
 }

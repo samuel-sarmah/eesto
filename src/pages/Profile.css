@@ -43,7 +43,7 @@
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: #000;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -82,7 +82,7 @@
 }
 
 .stat-item svg {
-  color: #667eea;
+  color: #000;
 }
 
 .stat-item h3 {
@@ -119,11 +119,11 @@
 
 .profile-nav a:hover {
   background: #f8f9fa;
-  color: #667eea;
+  color: #000;
 }
 
 .profile-nav a.active {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: #000;
   color: white;
 }
 
@@ -169,7 +169,7 @@
 }
 
 .edit-btn {
-  background: #667eea;
+  background: #000;
   color: white;
 }
 
@@ -202,7 +202,7 @@
 }
 
 .view-all-link {
-  color: #667eea;
+  color: #000;
   text-decoration: none;
   font-weight: 500;
   transition: color 0.2s ease;
@@ -239,7 +239,7 @@
 }
 
 .info-item label svg {
-  color: #667eea;
+  color: #000;
 }
 
 .info-item p {
@@ -260,7 +260,7 @@
 
 .info-item input:focus {
   outline: none;
-  border-color: #667eea;
+  border-color: #000;
 }
 
 .info-note {
@@ -283,7 +283,7 @@
 }
 
 .order-card:hover {
-  border-color: #667eea;
+  border-color: #000;
   box-shadow: 0 4px 12px rgba(102, 126, 234, 0.1);
 }
 
@@ -349,12 +349,12 @@
 .order-total {
   margin: 0;
   font-weight: 600;
-  color: #667eea;
+  color: #000;
   font-size: 1.1rem;
 }
 
 .order-details-link {
-  color: #667eea;
+  color: #000;
   text-decoration: none;
   font-weight: 500;
   font-size: 0.9rem;
@@ -383,7 +383,7 @@
 }
 
 .setting-item:hover {
-  border-color: #667eea;
+  border-color: #000;
 }
 
 .setting-item h3 {
@@ -437,7 +437,7 @@
 }
 
 .toggle-switch input:checked + .toggle-slider {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: #000;
 }
 
 .toggle-switch input:checked + .toggle-slider:before {
@@ -466,7 +466,7 @@
   align-items: center;
   gap: 0.5rem;
   padding: 0.75rem 2rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: #000;
   color: white;
   text-decoration: none;
   border-radius: 8px;

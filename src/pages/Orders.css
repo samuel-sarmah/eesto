@@ -29,7 +29,7 @@
   align-items: center;
   gap: 0.5rem;
   padding: 0.75rem 1.5rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: #000;
   color: white;
   text-decoration: none;
   border-radius: 8px;
@@ -95,7 +95,7 @@
 }
 
 .filter-item svg {
-  color: #667eea;
+  color: #000;
 }
 
 .filter-item select {
@@ -230,7 +230,7 @@
 
 .expand-icon {
   transition: transform 0.3s ease;
-  color: #667eea;
+  color: #000;
 }
 
 .expand-icon.expanded {
@@ -306,8 +306,8 @@
 }
 
 .timeline-step.completed .step-icon {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  border-color: #667eea;
+  background: #000;
+  border-color: #000;
   color: white;
 }
 
@@ -368,7 +368,7 @@
 .item-price {
   font-size: 1.1rem;
   font-weight: 600;
-  color: #667eea;
+  color: #000;
 }
 
 /* Shipping Info */

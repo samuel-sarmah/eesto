@@ -1,198 +1,35 @@
 .eesto-logo {
   display: flex;
   align-items: center;
-  gap: 0.75rem;
-}
-
-.logo-icon {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.logo-svg {
-  width: 100%;
-  height: 100%;
-  filter: drop-shadow(0 2px 4px rgba(102, 126, 234, 0.2));
-}
-
-/* Layer animations */
-.layer {
-  transition: all 0.4s ease;
-  transform-origin: center;
-}
-
-.layer-1 {
-  animation: layer-float 3s ease-in-out infinite;
-}
-
-.layer-2 {
-  animation: layer-float 3s ease-in-out infinite 0.3s;
-}
-
-.layer-3 {
-  animation: layer-float 3s ease-in-out infinite 0.6s;
-}
-
-.accent-line {
-  stroke-dasharray: 10;
-  stroke-dashoffset: 10;
-  animation: dash-draw 2s ease-in-out infinite;
-}
-
-.eesto-logo:hover .layer-1 {
-  transform: translateY(2px);
-}
-
-.eesto-logo:hover .layer-2 {
-  transform: translateY(-1px);
-}
-
-.eesto-logo:hover .layer-3 {
-  transform: translateY(-3px) scale(1.05);
-}
-
-.eesto-logo:hover .accent-line {
-  animation: dash-draw 1s ease-in-out infinite, glow 1.5s ease-in-out infinite;
-}
-
-.logo-text-wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 0.1rem;
 }
 
 .logo-brand {
-  font-weight: 800;
-  letter-spacing: 0.05em;
+  font-weight: 700;
+  letter-spacing: 0.2em;
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  background-size: 200% 100%;
-  animation: gradient-slide 3s ease infinite;
+  color: #000;
   line-height: 1;
+  text-transform: uppercase;
 }
 
-.logo-tagline {
-  font-size: 0.45em;
-  font-weight: 500;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
-  color: #666;
-  opacity: 0.8;
-  line-height: 1;
+/* Variant styles */
+.eesto-logo.light .logo-brand {
+  color: #fff;
+}
+
+.eesto-logo.minimal .logo-brand {
+  color: #000;
 }
 
 /* Size variants */
-.eesto-logo.small .logo-icon {
-  width: 32px;
-  height: 32px;
-}
-
 .eesto-logo.small .logo-brand {
-  font-size: 1rem;
-}
-
-.eesto-logo.small .logo-tagline {
-  font-size: 0.5rem;
-}
-
-.eesto-logo.medium .logo-icon {
-  width: 44px;
-  height: 44px;
+  font-size: 1.25rem;
 }
 
 .eesto-logo.medium .logo-brand {
   font-size: 1.5rem;
 }
 
-.eesto-logo.medium .logo-tagline {
-  font-size: 0.65rem;
-}
-
-.eesto-logo.large .logo-icon {
-  width: 80px;
-  height: 80px;
-}
-
 .eesto-logo.large .logo-brand {
   font-size: 2.5rem;
-}
-
-.eesto-logo.large .logo-tagline {
-  font-size: 1rem;
-}
-
-/* Variant styles */
-.eesto-logo.light .logo-brand {
-  background: linear-gradient(135deg, #fff 0%, #f0f0f0 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-.eesto-logo.light .logo-tagline {
-  color: rgba(255, 255, 255, 0.9);
-}
-
-.eesto-logo.light .logo-svg {
-  filter: drop-shadow(0 2px 8px rgba(255, 255, 255, 0.3));
-}
-
-.eesto-logo.minimal .logo-tagline {
-  display: none;
-}
-
-/* Animations */
-@keyframes layer-float {
-  0%, 100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-2px);
-  }
-}
-
-@keyframes dash-draw {
-  0% {
-    stroke-dashoffset: 10;
-  }
-  50% {
-    stroke-dashoffset: 0;
-  }
-  100% {
-    stroke-dashoffset: -10;
-  }
-}
-
-@keyframes glow {
-  0%, 100% {
-    filter: drop-shadow(0 0 2px rgba(245, 87, 108, 0.5));
-  }
-  50% {
-    filter: drop-shadow(0 0 6px rgba(245, 87, 108, 0.8));
-  }
-}
-
-@keyframes gradient-slide {
-  0%, 100% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-  .eesto-logo.medium .logo-text {
-    font-size: 1.5rem;
-  }
-  
-  .eesto-logo.large .logo-text {
-    font-size: 2.5rem;
-  }
 }
