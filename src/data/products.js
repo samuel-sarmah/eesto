@@ -356,8 +356,8 @@ export const products = [
     price: 64.99,
     description: "Breathable linen button-up perfect for warm weather.",
     images: [
-      "https://images.unsplash.com/photo-1624206112431-4e92c3a2e3ca?w=500&q=80&fit=crop",
-      "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=500&q=80&fit=crop"
+      "https://images.unsplash.com/photo-1598554747436-c9293d6a588f?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=500&q=80&fit=crop"
     ],
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["White", "Beige", "Sky Blue", "Sage"],
@@ -578,8 +578,8 @@ export const products = [
     price: 24.99,
     description: "Essential ribbed tank top in soft cotton blend.",
     images: [
-      "https://images.unsplash.com/photo-1542838686-e3d6b8d8e462?w=500&q=80&fit=crop",
-      "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=500&q=80&fit=crop"
+      "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=500&q=80&fit=crop"
     ],
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["White", "Black", "Beige", "Gray", "Olive"],
@@ -908,8 +908,8 @@ export const products = [
     price: 44.99,
     description: "Romantic off-shoulder top with elastic neckline.",
     images: [
-      "https://images.unsplash.com/photo-1542838686-e3d6b8d8e462?w=500&q=80&fit=crop",
-      "https://images.unsplash.com/photo-1564859228273-274232fdb516?w=500&q=80&fit=crop"
+      "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=500&q=80&fit=crop"
     ],
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["White", "Black", "Blush", "Navy"],
@@ -1236,8 +1236,8 @@ export const products = [
     price: 49.99,
     description: "Trendy cropped hoodie with drawstring hood.",
     images: [
-      "https://images.unsplash.com/photo-1542838686-e3d6b8d8e462?w=500&q=80&fit=crop",
-      "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=500&q=80&fit=crop"
+      "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1578768079052-aa76e52ff62e?w=500&q=80&fit=crop"
     ],
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["Black", "Gray", "Pink", "White"],
@@ -1382,8 +1382,8 @@ export const products = [
     originalPrice: 59.99,
     description: "Sheer mesh bodysuit with snap closure.",
     images: [
-      "https://images.unsplash.com/photo-1542838686-e3d6b8d8e462?w=500&q=80&fit=crop",
-      "https://images.unsplash.com/photo-1564859228273-274232fdb516?w=500&q=80&fit=crop"
+      "https://images.unsplash.com/photo-1583846783214-7229a91b20ed?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1551854838-212c50b4c184?w=500&q=80&fit=crop"
     ],
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["Black", "White", "Nude"],
@@ -1454,8 +1454,8 @@ export const products = [
     price: 39.99,
     description: "Luxe satin camisole with adjustable straps.",
     images: [
-      "https://images.unsplash.com/photo-1542838686-e3d6b8d8e462?w=500&q=80&fit=crop",
-      "https://images.unsplash.com/photo-1564859228273-274232fdb516?w=500&q=80&fit=crop"
+      "https://images.unsplash.com/photo-1518622358385-8ea7d0794bf6?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1539008835657-9e8e9680c956?w=500&q=80&fit=crop"
     ],
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["Black", "White", "Champagne", "Blush"],
@@ -1601,8 +1601,8 @@ export const products = [
     originalPrice: 99.99,
     description: "Sparkly sequin top for evening glamour.",
     images: [
-      "https://images.unsplash.com/photo-1542838686-e3d6b8d8e462?w=500&q=80&fit=crop",
-      "https://images.unsplash.com/photo-1564859228273-274232fdb516?w=500&q=80&fit=crop"
+      "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=500&q=80&fit=crop"
     ],
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["Gold", "Silver", "Black", "Rose Gold"],
@@ -1746,8 +1746,8 @@ export const products = [
     price: 49.99,
     description: "Sexy backless top with tie detail.",
     images: [
-      "https://images.unsplash.com/photo-1542838686-e3d6b8d8e462?w=500&q=80&fit=crop",
-      "https://images.unsplash.com/photo-1564859228273-274232fdb516?w=500&q=80&fit=crop"
+      "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=500&q=80&fit=crop"
     ],
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["Black", "White", "Red", "Navy"],
@@ -1783,8 +1783,8 @@ export const products = [
     price: 29.99,
     description: "Classic tube top with elastic band.",
     images: [
-      "https://images.unsplash.com/photo-1542838686-e3d6b8d8e462?w=500&q=80&fit=crop",
-      "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=500&q=80&fit=crop"
+      "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=500&q=80&fit=crop",
+      "https://images.unsplash.com/photo-1475180429745-84390107ef5f?w=500&q=80&fit=crop"
     ],
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["Black", "White", "Red", "Navy"],
